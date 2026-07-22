@@ -110,31 +110,6 @@ The NAT Gateway allows outbound internet access for the private subnet without e
 
 The Bastion Host acts as the secure entry point for administrators who need to manage private infrastructure.
 
----
-
-## Architecture Diagram
-
-> Insert the generated `architecture.png` here.
-
-Example:
-
-```
-Internet
-    │
-Internet Gateway
-    │
-──────────────
-Public Subnet
-│
-├── Bastion Host
-│
-└── NAT Gateway
-      │
-──────────────
-Private Subnet
-│
-└── Private App Server
-```
 
 ---
 
